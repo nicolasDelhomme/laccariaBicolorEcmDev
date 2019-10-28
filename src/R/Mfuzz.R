@@ -20,7 +20,7 @@ source(here("UPSCb-common/src/R/featureSelection.R"))
 load(here("data/analysis/salmon/Potri-all-dds.rda"))
 
 #' * Function
-getCluster <- function(vst,sample.sel,min.std=0.1){
+getCluster <- function(vst,sample.sel,min.std=0.1,clusterN=24){
   
   eset <- ExpressionSet(sapply(split.data.frame(t(vst[,sample.sel]),dds$Time),colMeans))
   
@@ -30,7 +30,7 @@ getCluster <- function(vst,sample.sel,min.std=0.1){
   
   m1 <- mestimate(s.eset)
   
-  return(list(eset=s.eset,cl=mfuzz(s.eset,c=24,m=m1)))
+  return(list(eset=s.eset,cl=mfuzz(s.eset,c=clusterN,m=m1)))
 }
 
 #' # Normalisation
@@ -55,15 +55,35 @@ enr.list <- lapply(split(rownames(s.eset),cl$cluster),
     gopher,background=rownames(s.eset),
     task="go",url="potri")
 
-# run also for Cont
+# run also for Control (add overlap)
 
-# run for ECM - Cont
+# run for ECM - Cont (calculate the ratio ECM - Control)
+rat$eset <- exprs(ecm$eset) - exprs(cont$eset)
 
 # run comparison of member genes accross the ECM and Cont clusters
+# as you said, overlap :-)
 
-# perform the same on the laccaria
+# perform the same on the laccaria 
+# redo the whole analysis
+# take the data from here("data/analysis/DE/Lacbi2....)
 
 # run the full network and use guide genes from T89 and Laccaria
+# let's talk when you get there ;-)
+# we need a vst with all data, both Potri and LacBi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
