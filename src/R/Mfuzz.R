@@ -1,45 +1,49 @@
-setwd("/mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor")
+#' ---
+#' title: "T89 and _Laccaria bicolor_ Mfuzz clustering"
+#' author: "Nicolas Delhomme"
+#' date: "`r Sys.Date()`"
+#' output:
+#'  html_document:
+#'    toc: true
+#'    number_sections: true
+#' ---
+#' # Setup
+#' * Libraries
+suppressPackageStartupMessages(library(DESeq2))
+suppressPackageStartupMessages(library(here))
+suppressPackageStartupMessages(library(Mfuzz))
 
-load("analysis/salmon/Potri-all-dds.rda")
+#' * Helpers
+source(here("UPSCb-common/src/R/featureSelection.R"))
 
-source("~/Git/UPSCb-common/src/R/featureSelection.R")
+#' * Data
+load(here("data/analysis/salmon/Potri-all-dds.rda"))
 
-library(Mfuzz)
-library(DESeq2)
+#' * Function
+getCluster <- function(vst,sample.sel,min.std=0.1){
+  
+  eset <- ExpressionSet(sapply(split.data.frame(t(vst[,sample.sel]),dds$Time),colMeans))
+  
+  f.eset <- filter.std(eset,min.std=min.std)
+  
+  s.eset <- standardise(f.eset)
+  
+  m1 <- mestimate(s.eset)
+  
+  return(list(eset=s.eset,cl=mfuzz(s.eset,c=24,m=m1)))
+}
 
+#' # Normalisation
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
-
 vst <- assay(vsd)
-
 vst <- vst - min(vst)
 
-dds.ecm <- dds[,dds$Experiment=="ECM"]
-design(dds.ecm) = ~ Time
+save(vst,file=here("data/analysis/DE/Potri_variance-stabilised-transformed_model-aware_data.rda"))
 
-sel <- featureSelect(vst,dds$Experiment,exp=0.1)
-
-sum(sel)
-
-counts <- vst[sel,]
-
-dat <- sapply(split.data.frame(t(counts),dds$Time),colMeans)
-str(dat)
-
-eset <- ExpressionSet(dat)
-
-f.eset <- filter.std(eset,min.std=0.1)
-
-s.eset <- standardise(f.eset)
-
-m1 <- mestimate(s.eset)
-
-m1
-
-cl <- mfuzz(s.eset,c=24,m=m1)
-
+#' # Clustering
+#' ## ECM
+ecm <- getCluster(vst,dds$Experiment=="ECM")
 save(cl,s.eset,file="cl.rda")
-
-str(cl)
 
 #mfuzz.plot(s.eset,cl=cl,mfrow=c(4,4),time.labels=seq(0,160,10))
 
