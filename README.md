@@ -4,3 +4,8 @@ The molecular timecourse of hybrid aspen/Laccaria bicolor ectomycorrhiza develop
 ## Abstract
 
 The project aims at deciphering the molecular timecourse of the establishment of Laccaria bicolor ectomycorrhiza on hybrid aspen (Populus tremula x Populus tremuloides, T89). Samples collected from various stage of the ectomycorrhiza have been collected and sequenced
+
+## Setup
+```{bash setup,eval=FALSE}
+ln -s /mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor data
+```
