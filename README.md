@@ -23,6 +23,11 @@ git submodule update
 ```{bash setup,eval=FALSE}
 ln -s /mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor data
 ```
+### Reference
+```{bash setup,eval=FALSE}
+ln -sf /mnt/picea/storage/reference/Laccaria-bicolor/Lacbi2 fungi
+ln -sf /mnt/picea/storage/reference/Populus-tremula/v2.2 aspen
+```
 
 ### Update
  To update the submodule when doing `git pull`, you need to run extra commands:

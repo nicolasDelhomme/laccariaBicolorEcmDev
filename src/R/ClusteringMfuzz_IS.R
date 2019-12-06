@@ -15,32 +15,34 @@ setwd("/mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor")
 #' ```
 
 #' * Libraries
-suppressPackageStartupMessages(library(data.table))
+#suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(DESeq2))
-suppressPackageStartupMessages(library(gplots))
-suppressPackageStartupMessages(library(hyperSpec))
-suppressPackageStartupMessages(library(LSD))
-suppressPackageStartupMessages(library(parallel))
-suppressPackageStartupMessages(library(pander))
-suppressPackageStartupMessages(library(plotly))
-suppressPackageStartupMessages(library(RColorBrewer))
-suppressPackageStartupMessages(library(scatterplot3d))
-suppressPackageStartupMessages(library(tidyverse))
-suppressPackageStartupMessages(library(vsn))
+# suppressPackageStartupMessages(library(gplots))
+# suppressPackageStartupMessages(library(hyperSpec))
+# suppressPackageStartupMessages(library(LSD))
+# suppressPackageStartupMessages(library(parallel))
+# suppressPackageStartupMessages(library(pander))
+# suppressPackageStartupMessages(library(plotly))
+# suppressPackageStartupMessages(library(RColorBrewer))
+# suppressPackageStartupMessages(library(scatterplot3d))
+# suppressPackageStartupMessages(library(tidyverse))
+# suppressPackageStartupMessages(library(vsn))
 library(Mfuzz)
 library(cluster)
 #library(fpc)
 
 #' * Helper functions
-source("~/Git/UPSCb-common/src/R/plot.multidensity.R")
-source("~/Git/UPSCb-common/src/R/featureSelection.R")
+# source("~/Git/UPSCb-common/src/R/plot.multidensity.R")
+# source("~/Git/UPSCb-common/src/R/featureSelection.R")
 
 #' * Graphics
-pal <- brewer.pal(8,"Dark2")
-hpal <- colorRampPalette(c("blue","white","red"))(100)
-mar <- par("mar")
+# pal <- brewer.pal(8,"Dark2")
+# hpal <- colorRampPalette(c("blue","white","red"))(100)
+# mar <- par("mar")
 
 load("analysis/salmon/Potri-all-dds.rda")
+
+counts <- counts[,!colnames(counts) %in% c("P11915_104","P11915_127","P11915_139")]
 
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
 vst <- assay(vsd)
@@ -83,18 +85,20 @@ cl <- mfuzz(Potri.s, c=16, m=1.25)
 m1 <- mestimate(Potri.s)
 m1
 
+cl <- mfuzz(Potri.s, c=16, m=m1)
+
 #ecm <- getCluster(vst,dds$Experiment=="ECM")
 
 #' ### Plot clustering results
 #' 
-clusplot(test, cl$cluster)
+clusplot(exprs(Potri.s), cl$cluster)
 points(cl$center,col=1:16,pch=8,cex=1)
 
 #mfuzz.plot2(Potri.s,cl=cl,mfrow=c(4,4),x11=FALSE) # same output as mfuzz.plot
 mfuzz.plot2(Potri.s, cl=cl,mfrow=c(4,4),centre=TRUE,x11=FALSE) # lines for cluster centres will be included
 
 #' Extracting list of genes belonging to the cluster cores
-list_genes <- acore(eset,cl,min.acore=0.5)
+list_genes <- acore(Potri.s,cl,min.acore=0.5)
 
 #' ### Overlapping of the clusters
 #' 
