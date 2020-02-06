@@ -50,7 +50,7 @@ read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_IPR.tab.gz"
   filter(domainDb == "HMMPfam") %>%
   rename(ID=`#proteinId`) %>% 
   group_by(ID) %>% summarise(GO=paste(domainId,collapse="|")) %>% 
-  write_tsv(here("fungi/gopher/gene_to_ipr.tsv"),col_names = FALSE)
+  write_tsv(here("fungi/gopher/gene_to_pfam.tsv"),col_names = FALSE)
 
 #' # Session Info
 #' ```{r sessionInfo, echo=FALSE}

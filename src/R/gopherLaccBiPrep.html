@@ -432,7 +432,7 @@ read_tsv(here(&quot;fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_GO.tab
   filter(domainDb == &quot;HMMPfam&quot;) %&gt;%
   rename(ID=`#proteinId`) %&gt;% 
   group_by(ID) %&gt;% summarise(GO=paste(domainId,collapse=&quot;|&quot;)) %&gt;% 
-  write_tsv(here(&quot;fungi/gopher/gene_to_ipr.tsv&quot;),col_names = FALSE)</code></pre>
+  write_tsv(here(&quot;fungi/gopher/gene_to_pfam.tsv&quot;),col_names = FALSE)</code></pre>
 </div>
 </div>
 <div id="session-info" class="section level1">
