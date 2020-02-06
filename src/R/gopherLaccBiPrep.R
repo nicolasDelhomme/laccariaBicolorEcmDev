@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
 })
 
 #' * Out dir
-dir.create(here("gopher"),showWarnings = FALSE)
+dir.create(here("fungi/gopher"),showWarnings = FALSE)
 
 #' # Annotation
 #' ## GO
@@ -32,7 +32,7 @@ read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_GO.tab.gz")
   filter(! goAcc %in% BL) %>% 
   rename(ID=`#proteinId`) %>% 
   group_by(ID) %>% summarise(GO=paste(goAcc,collapse="|")) %>% 
-  write_tsv(here("gopher/gene_to_go.tsv"),col_names = FALSE)
+  write_tsv(here("fungi/gopher/gene_to_go.tsv"),col_names = FALSE)
 
 #' ## KEGG
 read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_KEGG.tab.gz"),
@@ -40,7 +40,7 @@ read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_KEGG.tab.gz
                                ecNum = col_character())) %>% 
   rename(ID=`#proteinId`) %>% 
   group_by(ID) %>% summarise(GO=paste(ecNum,collapse="|")) %>% 
-  write_tsv(here("gopher/gene_to_kegg.tsv"),col_names = FALSE)
+  write_tsv(here("fungi/gopher/gene_to_kegg.tsv"),col_names = FALSE)
 
 #' ## IPR
 read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_IPR.tab.gz"),
@@ -50,7 +50,7 @@ read_tsv(here("fungi/annotation/Lacbi2_GeneCatalog_proteins_20110203_IPR.tab.gz"
   filter(domainDb == "HMMPfam") %>%
   rename(ID=`#proteinId`) %>% 
   group_by(ID) %>% summarise(GO=paste(domainId,collapse="|")) %>% 
-  write_tsv(here("gopher/gene_to_ipr.tsv"),col_names = FALSE)
+  write_tsv(here("fungi/gopher/gene_to_ipr.tsv"),col_names = FALSE)
 
 #' # Session Info
 #' ```{r sessionInfo, echo=FALSE}
