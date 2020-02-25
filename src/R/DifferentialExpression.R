@@ -1,6 +1,6 @@
 #' ---
 #' title: "Differential Expression"
-#' author: "Nicolas Delhomme"
+#' author: "Nicolas Delhomme & Iryna Shutava"
 #' date: "`r Sys.Date()`"
 #' output:
 #'  html_document:
@@ -8,24 +8,22 @@
 #'    number_sections: true
 #' ---
 #' # Setup
-#' * Working directory
-setwd("/mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor")
-#' ```{r set up, echo=FALSE}
-#' knitr::opts_knit$set(root.dir="/mnt/picea/projects/aspseq/jfelten/T89-Laccaria-bicolor")
-#' ```
 
 #' * Libraries
 suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(DESeq2))
 suppressPackageStartupMessages(library(gplots))
+suppressPackageStartupMessages(library(here))
 suppressPackageStartupMessages(library(hyperSpec))
 suppressPackageStartupMessages(library(RColorBrewer))
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(VennDiagram))
 
 #' * Helper files
-suppressMessages(source("~/Git/UPSCb/src/R/plotMA.R"))
-suppressMessages(source("~/Git/UPSCb/src/R/volcanoPlot.R"))
+suppressMessages(source(here("UPSCb-common/src/R/featureSelection.R")))
+suppressMessages(source(here("UPSCb-common/src/R/plotMA.R")))
+suppressMessages(source(here("UPSCb-common/src/R/volcanoPlot.R")))
+suppressMessages(source(here("UPSCb-common/src/R/gopher.R")))
 
 #' * Graphics
 pal=brewer.pal(8,"Dark2")
@@ -92,12 +90,14 @@ mar <- par("mar")
                   labCol=labels[sample_sel]
         )
     }
-    return(rownames(res[sel,]))
+    return(list(all=rownames(res[sel,]),
+                up=rownames(res[sel & res$log2FoldChange > 0,]),
+                dn=rownames(res[sel & res$log2FoldChange < 0,])))
 }
 
 #' # _Laccaria bicolor_
 #' * Data
-load("analysis/salmon/Lacbi-all-dds.rda")
+load(here("data/analysis/salmon/Lacbi-all-dds.rda"))
 
 #' ## Normalisation for visualisation
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
@@ -181,18 +181,99 @@ Lb_28 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,0,1),
                         sample_sel=colData(dds)$Time==28)
 
 #' ### Venn Diagram
+#' #### All DE genes
 grid.newpage()
-grid.draw(venn.diagram(list(T3=Lb_3,
-               T7=Lb_7,
-               T14=Lb_14,
-               T21=Lb_21,
-               T28=Lb_28),
-          NULL,
-          fill=pal[1:5]))
+grid.draw(venn.diagram(list(T3=Lb_3$all,
+                            T7=Lb_7$all,
+                            T14=Lb_14$all,
+                            T21=Lb_21$all,
+                            T28=Lb_28$all),
+                       NULL,
+                       fill=pal[1:5]))
+#' #### UP DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Lb_3$up,
+                            T7=Lb_7$up,
+                            T14=Lb_14$up,
+                            T21=Lb_21$up,
+                            T28=Lb_28$up),
+                       NULL,
+                       fill=pal[1:5]))
+#' #### DOWN DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Lb_3$dn,
+                            T7=Lb_7$dn,
+                            T14=Lb_14$dn,
+                            T21=Lb_21$dn,
+                            T28=Lb_28$dn),
+                       NULL,
+                       fill=pal[1:5]))
+
+res.list <- list(Lb_3=list(all=substr(Lb_3$all,12,17),
+                           up=substr(Lb_3$up,12,17),
+                           dn=substr(Lb_3$dn,12,17)),
+                 Lb_7=list(all=substr(Lb_7$all,12,17),
+                           up=substr(Lb_7$up,12,17),
+                           dn=substr(Lb_7$dn,12,17)),
+                 Lb_14=list(all=substr(Lb_14$all,12,17),
+                            up=substr(Lb_14$up,12,17),
+                            dn=substr(Lb_14$dn,12,17)),
+                 Lb_21=list(all=substr(Lb_21$all,12,17),
+                            up=substr(Lb_21$up,12,17),
+                            dn=substr(Lb_21$dn,12,17)),
+                 Lb_28=list(all=substr(Lb_28$all,12,17),
+                            up=substr(Lb_28$up,12,17),
+                            dn=substr(Lb_28$dn,12,17)))
+
+#' ### Gene Ontology enrichment
+#' ```{r go, echo=FALSE,eval=FALSE}
+#' Once you have obtained a list of candidate genes, you most probably want
+#' to annotate them.
+#' 
+#' In the following example, we first identify the background; _i.e._ the
+#' population of expressed genes. We select the genes expressed in a least
+#' 2 replicate of one condition at a cutoff of `exp`.
+#' 
+#' Next we run the enrichment, in the example against `athaliana` using 
+#' the gofer3 REST API (interfaced through the gopher.R script loaded at the
+#' beginning of this fil).
+#' 
+#' Finally we export the go enrichment as a complete table and as a table consisting
+#' of only the `id` and `padj` columns. The latter can be used as input for _e.g._
+#' REVIGO.
+#' ```
+background <- substr(rownames(vst)[featureSelect(vst,dds$Experiment,exp=0.1)],12,17)
+
+enr.list <- lapply(res.list,function(r){
+    lapply(r,gopher,background=background,task="go",url="lacbi2")
+})
+
+dev.null <- lapply(names(enr.list),function(n){
+    r <- enr.list[[n]]
+    if (! is.null(r$all$go)){
+        write_delim(r$all$go,path=file.path(file.path(here("data/analysis/DE",
+                                                       paste0(n,"-all-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$all$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                        paste0(n,"-all-DE-genes_GO-enrichment_for-REVIGO.txt")))))
+    }
+    if (! is.null(r$up$go)){
+        write_csv(r$up$go,path=file.path(file.path(here("data/analysis/DE",
+                                                    paste0(n,"-up-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$up$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                       paste0(n,"-up-DE-genes_GO-enrichment_for-REVIGO.txt")))))    
+    }
+    if (! is.null(r$dn$go)){
+        write_csv(r$dn$go,path=file.path(file.path(here("data/analysis/DE",
+                                                    paste0(n,"-down-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$dn$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                       paste0(n,"-down-DE-genes_GO-enrichment_for-REVIGO.txt")))))    
+    }
+})
+
 
 #' # _Populus tremula_
 #' * Data
-load("analysis/salmon/Potra-104-127-139-removed-dds.rda")
+load(here("data/analysis/salmon/Potra-104-127-139-removed-dds.rda"))
 
 #' ## Normalisation for visualisation
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
@@ -273,32 +354,112 @@ Pa_28 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,0,1),
                          sample_sel=colData(dds)$Time==28)
 
 #' ### Venn Diagram
+#' #### All DE genes
 grid.newpage()
-grid.draw(venn.diagram(list(T3=Pa_3,
-                            T7=Pa_7,
-                            T14=Pa_14,
-                            T21=Pa_21,
-                            T28=Pa_28),
+grid.draw(venn.diagram(list(T3=Pa_3$all,
+                            T7=Pa_7$all,
+                            T14=Pa_14$all,
+                            T21=Pa_21$all,
+                            T28=Pa_28$all),
+                       NULL,
+                       fill=pal[1:5]))
+#' #### UP DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Pa_3$up,
+                            T7=Pa_7$up,
+                            T14=Pa_14$up,
+                            T21=Pa_21$up,
+                            T28=Pa_28$up),
+                       NULL,
+                       fill=pal[1:5]))
+#' #### DOWN DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Pa_3$dn,
+                            T7=Pa_7$dn,
+                            T14=Pa_14$dn,
+                            T21=Pa_21$dn,
+                            T28=Pa_28$dn),
                        NULL,
                        fill=pal[1:5]))
 
+res.list <- list(Pa_3=Pa_3,
+                 Pa_7=Pa_7,
+                 Pa_14=Pa_14,
+                 Pa_21=Pa_21,
+                 Pa_28=Pa_28)
+
+#' ### Gene Ontology enrichment
+#' ```{r go_2, echo=FALSE,eval=FALSE}
+#' Once you have obtained a list of candidate genes, you most probably want
+#' to annotate them.
+#' 
+#' In the following example, we first identify the background; _i.e._ the
+#' population of expressed genes. We select the genes expressed in a least
+#' 2 replicate of one condition at a cutoff of `exp`.
+#' 
+#' Next we run the enrichment, in the example against `athaliana` using 
+#' the gofer3 REST API (interfaced through the gopher.R script loaded at the
+#' beginning of this fil).
+#' 
+#' Finally we export the go enrichment as a complete table and as a table consisting
+#' of only the `id` and `padj` columns. The latter can be used as input for _e.g._
+#' REVIGO.
+#' ```
+background <- rownames(vst)[featureSelect(vst,dds$Experiment,exp=0.1)]
+
+enr.list <- lapply(res.list,function(r){
+    lapply(r,gopher,background=background,task="go",url="potra")
+})
+
+dev.null <- lapply(names(enr.list),function(n){
+    r <- enr.list[[n]]
+    if (! is.null(r$all$go)){
+        write_delim(r$all$go,path=file.path(file.path(here("data/analysis/DE",
+                                                           paste0(n,"-all-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$all$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                            paste0(n,"-all-DE-genes_GO-enrichment_for-REVIGO.txt")))))
+    }
+    if (! is.null(r$up$go)){
+        write_csv(r$up$go,path=file.path(file.path(here("data/analysis/DE",
+                                                        paste0(n,"-up-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$up$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                           paste0(n,"-up-DE-genes_GO-enrichment_for-REVIGO.txt")))))    
+    }
+    if (! is.null(r$dn$go)){
+        write_csv(r$dn$go,path=file.path(file.path(here("data/analysis/DE",
+                                                        paste0(n,"-down-DE-genes_GO-enrichment.txt")))))
+        write_delim(r$dn$go[,c("id","padj")],path=file.path(file.path(here("data/analysis/DE",
+                                                                           paste0(n,"-down-DE-genes_GO-enrichment_for-REVIGO.txt")))))    
+    }
+})
+
 #' # _Populus trichocarpa_
 #' * Data
-load("analysis/salmon/Potri-all-dds.rda")
+load(here("data/analysis/salmon/Potri-all-dds.rda"))
 
 #' ## Normalisation for visualisation
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
 vst <- assay(vsd)
 vst <- vst - min(vst)
 
-#' ## Gene of interest
-goi <- read_lines("~/Git/UPSCb/projects/T89-Laccaria-bicolor/doc/goi.txt")
+#' Load the genes of interests (goi)
+goi <- list(
+    myb.goi=scan(here("doc/MYB-goi.txt"),what="character"),
+    mybr.goi=scan(here("doc/MYB-related-goi.txt"),what="character"),
+    wrky.goi=scan(here("doc/WRKY-goi.txt"),what="character"),
+    auxin.goi=paste0("Lb",scan(here("doc/auxin-related-goi.txt"),what="character")),
+    pectin.goi=paste0("Lb",scan(here("doc/pectin-related-goi.txt"),what="character")))
+
+#goi <- lapply(goi,function(goi){goi[goi %in% unlist(df)]})
 
 all(goi %in% rownames(vst))
 
 pdf("candidates-line-plot.pdf",width=12,height=8)
 par(mfrow=c(2,3))
-lapply(goi,line_plot,dds=dds,vst=vst)
+lapply(goi,function(gois){
+    line_plot 
+    dds=dds 
+    vst=vst})
 dev.off()
 
 #' * Potri.006G134800
@@ -374,12 +535,32 @@ Pa_28 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,0,1),
                          sample_sel=colData(dds)$Time==28)
 
 #' ### Venn Diagram
+#' #### All DE genes
 grid.newpage()
-grid.draw(venn.diagram(list(T3=Pa_3,
-                            T7=Pa_7,
-                            T14=Pa_14,
-                            T21=Pa_21,
-                            T28=Pa_28),
+grid.draw(venn.diagram(list(T3=Pa_3$all,
+                            T7=Pa_7$all,
+                            T14=Pa_14$all,
+                            T21=Pa_21$all,
+                            T28=Pa_28$all),
+                       NULL,
+                       fill=pal[1:5]))
+
+#' #### UP DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Pa_3$up,
+                            T7=Pa_7$up,
+                            T14=Pa_14$up,
+                            T21=Pa_21$up,
+                            T28=Pa_28$up),
+                       NULL,
+                       fill=pal[1:5]))
+#' #### DOWN DE genes
+grid.newpage()
+grid.draw(venn.diagram(list(T3=Pa_3$dn,
+                            T7=Pa_7$dn,
+                            T14=Pa_14$dn,
+                            T21=Pa_21$dn,
+                            T28=Pa_28$dn),
                        NULL,
                        fill=pal[1:5]))
 
