@@ -30,6 +30,14 @@ pal=brewer.pal(8,"Dark2")
 hpal <- colorRampPalette(c("blue","white","red"))(100)
 mar <- par("mar")
 
+#' Load the genes of interests (goi)
+gois <- list(
+    myb.goi=scan(here("doc/MYB-goi.txt"),what="character"),
+    mybr.goi=scan(here("doc/MYB-related-goi.txt"),what="character"),
+    wrky.goi=scan(here("doc/WRKY-goi.txt"),what="character"),
+    auxin.goi=scan(here("doc/auxin-related-goi.txt"),what="character"),
+    pectin.goi=scan(here("doc/pectin-related-goi.txt"),what="character"))
+
 #' * Functions
 #' 1. plot specific gene expression
 "line_plot" <- function(dds=dds,vst=vst,gene_id){
@@ -104,24 +112,20 @@ vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
 vst <- assay(vsd)
 vst <- vst - min(vst)
 
-#' ## Gene of interest
-#' * 245379 
-#' The gene is medium expressed and show different patterns
-#' in ECM and FLM
-line_plot(dds,vst,"245379")
+#' * Genes from the GOI
+rownames(vst) <- substr(rownames(vst),12,17)
 
-#' * 676331
-#' The gene is very lowly expressed with some samples having no expression
-line_plot(dds,vst,"676331")
-
-#' * 315313
-#' Same as 676331
-line_plot(dds,vst,"Lacbi1.eu2.Lbscf0069g00950")
-
-#' * 315258
-#' The gene has a low expression and there is overrlap between the two
-#' experiments, but there is visible expression difference
-line_plot(dds,vst,"315258")
+#' * Genes from the GOI
+lapply(gois, function(goi){
+        pdf(paste0(goi,"-Lacbi-candidates-line-plot.pdf"),width=12,height=8)
+        par(mfrow=c(2,3))
+        lapply(goi,function(x){
+        if ((x %in% rownames(vst))){
+            line_plot(dds,vst,x)
+        }
+    })
+    dev.off()
+})
 
 #' ## Differential Expression
 dds <- DESeq(dds)
@@ -242,7 +246,7 @@ res.list <- list(Lb_3=list(all=substr(Lb_3$all,12,17),
 #' of only the `id` and `padj` columns. The latter can be used as input for _e.g._
 #' REVIGO.
 #' ```
-background <- substr(rownames(vst)[featureSelect(vst,dds$Experiment,exp=0.1)],12,17)
+background <- rownames(vst)[featureSelect(vst,dds$Experiment,exp=0.1)]
 
 enr.list <- lapply(res.list,function(r){
     lapply(r,gopher,background=background,task="go",url="lacbi2")
@@ -285,18 +289,17 @@ vst <- vst - min(vst)
 #' The gene is not expressed
 line_plot(dds,vst,"Potra000962g07909")
 
-#' * Potra001661g13641
-#' The gene is  medium expressed and show time-lagged expression patterns between
-#' the experiments
-line_plot(dds,vst,"Potra001661g13641")
-
-#' * Potra003711g22520
-#' The gene is medium expressed and show initially opposing expression patterns between experiments
-line_plot(dds,vst,"Potra003711g22520")
-
-#' * Potra006413g25676
-#' The gene his very lowly expressed and shows somewhat opposite expression patterns
-line_plot(dds,vst,"Potra006413g25676")
+#' * Genes from the GOI
+lapply(gois, function(goi){
+    pdf(paste0(goi,"-Potra-candidates-line-plot.pdf"),width=12,height=8)
+    par(mfrow=c(2,3))
+    lapply(goi,function(x){
+        if ((x %in% rownames(vst))){
+            line_plot(dds,vst,x)
+        }
+    })
+    dev.off()
+})
 
 #' ## Differential Expression
 dds <- DESeq(dds)
@@ -441,26 +444,6 @@ load(here("data/analysis/salmon/Potri-all-dds.rda"))
 vsd <- varianceStabilizingTransformation(dds,blind=FALSE)
 vst <- assay(vsd)
 vst <- vst - min(vst)
-
-#' Load the genes of interests (goi)
-goi <- list(
-    myb.goi=scan(here("doc/MYB-goi.txt"),what="character"),
-    mybr.goi=scan(here("doc/MYB-related-goi.txt"),what="character"),
-    wrky.goi=scan(here("doc/WRKY-goi.txt"),what="character"),
-    auxin.goi=paste0("Lb",scan(here("doc/auxin-related-goi.txt"),what="character")),
-    pectin.goi=paste0("Lb",scan(here("doc/pectin-related-goi.txt"),what="character")))
-
-#goi <- lapply(goi,function(goi){goi[goi %in% unlist(df)]})
-
-all(goi %in% rownames(vst))
-
-pdf("candidates-line-plot.pdf",width=12,height=8)
-par(mfrow=c(2,3))
-lapply(goi,function(gois){
-    line_plot 
-    dds=dds 
-    vst=vst})
-dev.off()
 
 #' * Potri.006G134800
 #' The gene is not expressed
