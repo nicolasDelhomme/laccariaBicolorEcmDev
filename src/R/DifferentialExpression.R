@@ -10,20 +10,23 @@
 #' # Setup
 
 #' * Libraries
-suppressPackageStartupMessages(library(data.table))
-suppressPackageStartupMessages(library(DESeq2))
-suppressPackageStartupMessages(library(gplots))
-suppressPackageStartupMessages(library(here))
-suppressPackageStartupMessages(library(hyperSpec))
-suppressPackageStartupMessages(library(RColorBrewer))
-suppressPackageStartupMessages(library(tidyverse))
-suppressPackageStartupMessages(library(VennDiagram))
+suppressPackageStartupMessages({
+    library(data.table)
+    library(DESeq2)
+    library(gplots)
+    library(here)
+    library(hyperSpec)
+    library(RColorBrewer)
+    library(tidyverse)
+    library(VennDiagram)
+})
 
 #' * Helper files
-suppressMessages(source(here("UPSCb-common/src/R/featureSelection.R")))
-suppressMessages(source(here("UPSCb-common/src/R/plotMA.R")))
-suppressMessages(source(here("UPSCb-common/src/R/volcanoPlot.R")))
-suppressMessages(source(here("UPSCb-common/src/R/gopher.R")))
+suppressMessages({
+    source(here("UPSCb-common/src/R/featureSelection.R"))
+    source(here("UPSCb-common/src/R/volcanoPlot.R"))
+    source(here("UPSCb-common/src/R/gopher.R"))
+})
 
 #' * Graphics
 pal=brewer.pal(8,"Dark2")
@@ -60,7 +63,7 @@ gois <- list(
 "extract_results" <- function(dds,vst,contrast,
                               padj=0.01,lfc=0.5,
                               plot=TRUE,verbose=TRUE,
-                              export=TRUE,default_dir="analysis/DE",
+                              export=TRUE,default_dir=here("data/analysis/DE"),
                               default_prefix="DE-",
                               labels=colnames(dds),
                               sample_sel=1:ncol(dds)){
@@ -117,7 +120,7 @@ rownames(vst) <- substr(rownames(vst),12,17)
 
 #' * Genes from the GOI
 lapply(gois, function(goi){
-        pdf(paste0(goi,"-Lacbi-candidates-line-plot.pdf"),width=12,height=8)
+        pdf(here("data/analysis/DE",paste0(goi,"-Lacbi-candidates-line-plot.pdf")),width=12,height=8)
         par(mfrow=c(2,3))
         lapply(goi,function(x){
         if ((x %in% rownames(vst))){
@@ -149,7 +152,7 @@ resultsNames(dds)
 #' changes at a given time transition in between experiments
 #' ### FLM _vs._ ECM at T3
 Lb_3 <- extract_results(dds,vst,"Experiment_FLM_vs_ECM",
-                        default_prefix="Labic_FLM-vs-ECM_T3_",
+                        default_prefix="Lacbi_FLM-vs-ECM_T3_",
                         labels=paste0(colData(dds)$Experiment,
                                       colData(dds)$Time),
                         sample_sel=colData(dds)$Time==3)
@@ -158,28 +161,28 @@ Lb_3 <- extract_results(dds,vst,"Experiment_FLM_vs_ECM",
 #' Here we want to conmbine the effect of FLM-ECM at time T3 and the specific
 #' FLM:T7 interaction 
 Lb_7 <- extract_results(dds,vst,c(0,1,0,0,0,0,1,0,0,0),
-                       default_prefix="Labic_FLM-vs-ECM_T7_",
+                       default_prefix="Lacbi_FLM-vs-ECM_T7_",
                        labels=paste0(colData(dds)$Experiment,
                                      colData(dds)$Time),
                        sample_sel=colData(dds)$Time==7)
 
 #' ### FLM _vs._ ECM at T14
 Lb_14 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,1,0,0),
-                   default_prefix="Labic_FLM-vs-ECM_T14_",
+                   default_prefix="Lacbi_FLM-vs-ECM_T14_",
                         labels=paste0(colData(dds)$Experiment,
                                       colData(dds)$Time),
                         sample_sel=colData(dds)$Time==14)
 
 #' ### FLM _vs._ ECM at T21
 Lb_21 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,1,0),
-                        default_prefix="Labic_FLM-vs-ECM_T21_",
+                        default_prefix="Lacbi_FLM-vs-ECM_T21_",
                         labels=paste0(colData(dds)$Experiment,
                                       colData(dds)$Time),
                         sample_sel=colData(dds)$Time==21)
 
 #' ### FLM _vs._ ECM at T28
 Lb_28 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,0,1),
-                        default_prefix="Labic_FLM-vs-ECM_T28_",
+                        default_prefix="Lacbi_FLM-vs-ECM_T28_",
                         labels=paste0(colData(dds)$Experiment,
                                       colData(dds)$Time),
                         sample_sel=colData(dds)$Time==28)
@@ -291,7 +294,7 @@ line_plot(dds,vst,"Potra000962g07909")
 
 #' * Genes from the GOI
 lapply(gois, function(goi){
-    pdf(paste0(goi,"-Potra-candidates-line-plot.pdf"),width=12,height=8)
+    pdf(here("data/analysis/DE",paste0(goi,"-Potra-candidates-line-plot.pdf")),width=12,height=8)
     par(mfrow=c(2,3))
     lapply(goi,function(x){
         if ((x %in% rownames(vst))){
