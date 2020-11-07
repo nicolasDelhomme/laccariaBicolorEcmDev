@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAMPLE_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ftp://webin.ebi.ac.uk/meta/xsd/sra_1_5/SRA.sample.xsd">
+ <SAMPLE alias="UPSC-0168-S0001" center_name="UPSC">
+  <TITLE>3d_Cont_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_3d_controlroot_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0002" center_name="UPSC">
+  <TITLE>3d_Cont_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0003" center_name="UPSC">
+  <TITLE>3d_Cont_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_3d_controlroot_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0004" center_name="UPSC">
+  <TITLE>3d_Cont_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0005" center_name="UPSC">
+  <TITLE>3d_Cont_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_3d_controlroot_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0006" center_name="UPSC">
+  <TITLE>3d_Cont_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0007" center_name="UPSC">
+  <TITLE>3d_Cont_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_3d_controlroot_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0008" center_name="UPSC">
+  <TITLE>3d_Cont_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0009" center_name="UPSC">
+  <TITLE>3d_ECM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_3d_Ectomycorrhiza_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0010" center_name="UPSC">
+  <TITLE>3d_ECM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0011" center_name="UPSC">
+  <TITLE>3d_ECM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_3d_Ectomycorrhiza_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0012" center_name="UPSC">
+  <TITLE>3d_ECM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0013" center_name="UPSC">
+  <TITLE>3d_ECM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_3d_Ectomycorrhiza_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0014" center_name="UPSC">
+  <TITLE>3d_ECM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0015" center_name="UPSC">
+  <TITLE>3d_ECM_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_3d_Ectomycorrhiza_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0016" center_name="UPSC">
+  <TITLE>3d_ECM_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0017" center_name="UPSC">
+  <TITLE>3d_FLM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0018" center_name="UPSC">
+  <TITLE>3d_FLM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0019" center_name="UPSC">
+  <TITLE>3d_FLM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0020" center_name="UPSC">
+  <TITLE>3d_FLM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0021" center_name="UPSC">
+  <TITLE>3d_FLM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0022" center_name="UPSC">
+  <TITLE>3d_FLM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0023" center_name="UPSC">
+  <TITLE>7d_Cont_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_7d_controlroot_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0024" center_name="UPSC">
+  <TITLE>7d_Cont_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0025" center_name="UPSC">
+  <TITLE>7d_Cont_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_7d_controlroot_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0026" center_name="UPSC">
+  <TITLE>7d_Cont_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0027" center_name="UPSC">
+  <TITLE>7d_Cont_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_7d_controlroot_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0028" center_name="UPSC">
+  <TITLE>7d_Cont_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0029" center_name="UPSC">
+  <TITLE>7d_Cont_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_7d_controlroot_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0030" center_name="UPSC">
+  <TITLE>7d_Cont_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0031" center_name="UPSC">
+  <TITLE>7d_ECM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_7d_Ectomycorrhiza_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0032" center_name="UPSC">
+  <TITLE>7d_ECM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0033" center_name="UPSC">
+  <TITLE>7d_ECM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_7d_Ectomycorrhiza_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0034" center_name="UPSC">
+  <TITLE>7d_ECM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0035" center_name="UPSC">
+  <TITLE>7d_ECM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_7d_Ectomycorrhiza_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0036" center_name="UPSC">
+  <TITLE>7d_ECM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0037" center_name="UPSC">
+  <TITLE>7d_ECM_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_7d_Ectomycorrhiza_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0038" center_name="UPSC">
+  <TITLE>7d_ECM_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0039" center_name="UPSC">
+  <TITLE>7d_FLM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_7d_Freelivingmycelium_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0040" center_name="UPSC">
+  <TITLE>7d_FLM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0041" center_name="UPSC">
+  <TITLE>7d_FLM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_7d_Freelivingmycelium_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0042" center_name="UPSC">
+  <TITLE>7d_FLM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0043" center_name="UPSC">
+  <TITLE>7d_FLM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_7d_Freelivingmycelium_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0044" center_name="UPSC">
+  <TITLE>7d_FLM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0045" center_name="UPSC">
+  <TITLE>14d_Cont_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_14d_controlroot_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0046" center_name="UPSC">
+  <TITLE>14d_Cont_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0047" center_name="UPSC">
+  <TITLE>14d_Cont_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_14d_controlroot_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0048" center_name="UPSC">
+  <TITLE>14d_Cont_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0049" center_name="UPSC">
+  <TITLE>14d_Cont_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_14d_controlroot_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0050" center_name="UPSC">
+  <TITLE>14d_Cont_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0051" center_name="UPSC">
+  <TITLE>14d_Cont_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_14d_controlroot_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0052" center_name="UPSC">
+  <TITLE>14d_Cont_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0053" center_name="UPSC">
+  <TITLE>14d_ECM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_14d_Ectomycorrhiza_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0054" center_name="UPSC">
+  <TITLE>14d_ECM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0055" center_name="UPSC">
+  <TITLE>14d_ECM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_14d_Ectomycorrhiza_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0056" center_name="UPSC">
+  <TITLE>14d_ECM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0057" center_name="UPSC">
+  <TITLE>14d_ECM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_14d_Ectomycorrhiza_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0058" center_name="UPSC">
+  <TITLE>14d_ECM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0059" center_name="UPSC">
+  <TITLE>14d_ECM_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_14d_Ectomycorrhiza_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0060" center_name="UPSC">
+  <TITLE>14d_ECM_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0061" center_name="UPSC">
+  <TITLE>14d_FLM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_14d_Freelivingmycelium_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0062" center_name="UPSC">
+  <TITLE>14d_FLM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0063" center_name="UPSC">
+  <TITLE>14d_FLM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_14d_Freelivingmycelium_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0064" center_name="UPSC">
+  <TITLE>14d_FLM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0065" center_name="UPSC">
+  <TITLE>14d_FLM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_14d_Freelivingmycelium_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0066" center_name="UPSC">
+  <TITLE>14d_FLM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0067" center_name="UPSC">
+  <TITLE>21d_Cont_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_21d_controlroot_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0068" center_name="UPSC">
+  <TITLE>21d_Cont_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0069" center_name="UPSC">
+  <TITLE>21d_Cont_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_21d_controlroot_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0070" center_name="UPSC">
+  <TITLE>21d_Cont_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0071" center_name="UPSC">
+  <TITLE>21d_Cont_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_21d_controlroot_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0072" center_name="UPSC">
+  <TITLE>21d_Cont_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0073" center_name="UPSC">
+  <TITLE>21d_Cont_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_21d_controlroot_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0074" center_name="UPSC">
+  <TITLE>21d_Cont_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0075" center_name="UPSC">
+  <TITLE>21d_ECM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_21d_Ectomycorrhiza_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0076" center_name="UPSC">
+  <TITLE>21d_ECM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0077" center_name="UPSC">
+  <TITLE>21d_ECM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_21d_Ectomycorrhiza_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0078" center_name="UPSC">
+  <TITLE>21d_ECM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0079" center_name="UPSC">
+  <TITLE>21d_ECM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_21d_Ectomycorrhiza_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0080" center_name="UPSC">
+  <TITLE>21d_ECM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0081" center_name="UPSC">
+  <TITLE>21d_ECM_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_21d_Ectomycorrhiza_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0082" center_name="UPSC">
+  <TITLE>21d_ECM_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0083" center_name="UPSC">
+  <TITLE>21d_FLM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_21d_Freelivingmycelium_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0084" center_name="UPSC">
+  <TITLE>21d_FLM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0085" center_name="UPSC">
+  <TITLE>21d_FLM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_21d_Freelivingmycelium_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0086" center_name="UPSC">
+  <TITLE>21d_FLM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0087" center_name="UPSC">
+  <TITLE>21d_FLM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_21d_Freelivingmycelium_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0088" center_name="UPSC">
+  <TITLE>21d_FLM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0089" center_name="UPSC">
+  <TITLE>28d_Cont_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_28d_controlroot_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0090" center_name="UPSC">
+  <TITLE>28d_Cont_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0091" center_name="UPSC">
+  <TITLE>28d_Cont_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_28d_controlroot_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0092" center_name="UPSC">
+  <TITLE>28d_Cont_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0093" center_name="UPSC">
+  <TITLE>28d_Cont_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_28d_controlroot_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0094" center_name="UPSC">
+  <TITLE>28d_Cont_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0095" center_name="UPSC">
+  <TITLE>28d_Cont_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89_28d_controlroot_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0096" center_name="UPSC">
+  <TITLE>28d_Cont_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0097" center_name="UPSC">
+  <TITLE>28d_ECM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_28d_Ectomycorrhiza_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0098" center_name="UPSC">
+  <TITLE>28d_ECM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0099" center_name="UPSC">
+  <TITLE>28d_ECM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_28d_Ectomycorrhiza_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0100" center_name="UPSC">
+  <TITLE>28d_ECM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0101" center_name="UPSC">
+  <TITLE>28d_ECM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_28d_Ectomycorrhiza_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0102" center_name="UPSC">
+  <TITLE>28d_ECM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0103" center_name="UPSC">
+  <TITLE>28d_ECM_R4T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>T89/Lbicolor_28d_Ectomycorrhiza_P20medium_replicate4 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0104" center_name="UPSC">
+  <TITLE>28d_ECM_R4T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0105" center_name="UPSC">
+  <TITLE>28d_FLM_R1T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_28d_Freelivingmycelium_P20medium_replicate1 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0106" center_name="UPSC">
+  <TITLE>28d_FLM_R1T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0107" center_name="UPSC">
+  <TITLE>28d_FLM_R2T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_28d_Freelivingmycelium_P20medium_replicate2 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0108" center_name="UPSC">
+  <TITLE>28d_FLM_R2T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0109" center_name="UPSC">
+  <TITLE>28d_FLM_R3T1</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_28d_Freelivingmycelium_P20medium_replicate3 technical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0168-S0110" center_name="UPSC">
+  <TITLE>28d_FLM_R3T2</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>47664</TAXON_ID>
+   <SCIENTIFIC_NAME>Populus tremula x Populus tremuloides</SCIENTIFIC_NAME>
+   <COMMON_NAME>Populus tremula x Populus tremuloides</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Lbicolor_3d_Freelivingmycelium_P20medium_replicate1 technical replicate 2</DESCRIPTION>
+ </SAMPLE>
+</SAMPLE_SET>

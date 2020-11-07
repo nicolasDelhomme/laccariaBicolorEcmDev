@@ -48,3 +48,6 @@ goldStandard/
 
 # log
 *.log
+
+#mac
+.DS_Store

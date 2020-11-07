@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+<RECEIPT receiptDate="2020-11-07T13:14:21.661Z" submissionFile="UPSC-0168.Submission.xml" success="true">
+     <EXPERIMENT accession="ERX4674213" alias="UPSC-0168-E0001" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674214" alias="UPSC-0168-E0002" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674215" alias="UPSC-0168-E0003" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674216" alias="UPSC-0168-E0004" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674217" alias="UPSC-0168-E0005" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674218" alias="UPSC-0168-E0006" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674219" alias="UPSC-0168-E0007" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674220" alias="UPSC-0168-E0008" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674221" alias="UPSC-0168-E0009" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674222" alias="UPSC-0168-E0010" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674223" alias="UPSC-0168-E0011" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674224" alias="UPSC-0168-E0012" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674225" alias="UPSC-0168-E0013" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674226" alias="UPSC-0168-E0014" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674227" alias="UPSC-0168-E0015" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674228" alias="UPSC-0168-E0016" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674229" alias="UPSC-0168-E0017" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674230" alias="UPSC-0168-E0018" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674231" alias="UPSC-0168-E0019" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674232" alias="UPSC-0168-E0020" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674233" alias="UPSC-0168-E0021" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674234" alias="UPSC-0168-E0022" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674235" alias="UPSC-0168-E0023" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674236" alias="UPSC-0168-E0024" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674237" alias="UPSC-0168-E0025" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674238" alias="UPSC-0168-E0026" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674239" alias="UPSC-0168-E0027" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674240" alias="UPSC-0168-E0028" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674241" alias="UPSC-0168-E0029" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674242" alias="UPSC-0168-E0030" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674243" alias="UPSC-0168-E0031" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674244" alias="UPSC-0168-E0032" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674245" alias="UPSC-0168-E0033" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674246" alias="UPSC-0168-E0034" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674247" alias="UPSC-0168-E0035" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674248" alias="UPSC-0168-E0036" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674249" alias="UPSC-0168-E0037" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674250" alias="UPSC-0168-E0038" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674251" alias="UPSC-0168-E0039" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674252" alias="UPSC-0168-E0040" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674253" alias="UPSC-0168-E0041" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674254" alias="UPSC-0168-E0042" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674255" alias="UPSC-0168-E0043" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674256" alias="UPSC-0168-E0044" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674257" alias="UPSC-0168-E0045" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674258" alias="UPSC-0168-E0046" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674259" alias="UPSC-0168-E0047" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674260" alias="UPSC-0168-E0048" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674261" alias="UPSC-0168-E0049" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674262" alias="UPSC-0168-E0050" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674263" alias="UPSC-0168-E0051" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674264" alias="UPSC-0168-E0052" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674265" alias="UPSC-0168-E0053" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674266" alias="UPSC-0168-E0054" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674267" alias="UPSC-0168-E0055" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674268" alias="UPSC-0168-E0056" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674269" alias="UPSC-0168-E0057" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674270" alias="UPSC-0168-E0058" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674271" alias="UPSC-0168-E0059" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674272" alias="UPSC-0168-E0060" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674273" alias="UPSC-0168-E0061" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674274" alias="UPSC-0168-E0062" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674275" alias="UPSC-0168-E0063" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674276" alias="UPSC-0168-E0064" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674277" alias="UPSC-0168-E0065" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674278" alias="UPSC-0168-E0066" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674279" alias="UPSC-0168-E0067" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674280" alias="UPSC-0168-E0068" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674281" alias="UPSC-0168-E0069" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674282" alias="UPSC-0168-E0070" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674283" alias="UPSC-0168-E0071" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674284" alias="UPSC-0168-E0072" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674285" alias="UPSC-0168-E0073" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674286" alias="UPSC-0168-E0074" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674287" alias="UPSC-0168-E0075" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674288" alias="UPSC-0168-E0076" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674289" alias="UPSC-0168-E0077" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674290" alias="UPSC-0168-E0078" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674291" alias="UPSC-0168-E0079" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674292" alias="UPSC-0168-E0080" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674293" alias="UPSC-0168-E0081" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674294" alias="UPSC-0168-E0082" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674295" alias="UPSC-0168-E0083" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674296" alias="UPSC-0168-E0084" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674297" alias="UPSC-0168-E0085" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674298" alias="UPSC-0168-E0086" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674299" alias="UPSC-0168-E0087" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674300" alias="UPSC-0168-E0088" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674301" alias="UPSC-0168-E0089" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674302" alias="UPSC-0168-E0090" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674303" alias="UPSC-0168-E0091" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674304" alias="UPSC-0168-E0092" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674305" alias="UPSC-0168-E0093" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674306" alias="UPSC-0168-E0094" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674307" alias="UPSC-0168-E0095" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674308" alias="UPSC-0168-E0096" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674309" alias="UPSC-0168-E0097" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674310" alias="UPSC-0168-E0098" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674311" alias="UPSC-0168-E0099" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674312" alias="UPSC-0168-E0100" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674313" alias="UPSC-0168-E0101" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674314" alias="UPSC-0168-E0102" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674315" alias="UPSC-0168-E0103" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674316" alias="UPSC-0168-E0104" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674317" alias="UPSC-0168-E0105" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674318" alias="UPSC-0168-E0106" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674319" alias="UPSC-0168-E0107" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674320" alias="UPSC-0168-E0108" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674321" alias="UPSC-0168-E0109" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX4674322" alias="UPSC-0168-E0110" status="PRIVATE"/>
+     <RUN accession="ERR4804650" alias="UPSC-0168-R0001" status="PRIVATE"/>
+     <RUN accession="ERR4804651" alias="UPSC-0168-R0002" status="PRIVATE"/>
+     <RUN accession="ERR4804652" alias="UPSC-0168-R0003" status="PRIVATE"/>
+     <RUN accession="ERR4804653" alias="UPSC-0168-R0004" status="PRIVATE"/>
+     <RUN accession="ERR4804654" alias="UPSC-0168-R0005" status="PRIVATE"/>
+     <RUN accession="ERR4804655" alias="UPSC-0168-R0006" status="PRIVATE"/>
+     <RUN accession="ERR4804656" alias="UPSC-0168-R0007" status="PRIVATE"/>
+     <RUN accession="ERR4804657" alias="UPSC-0168-R0008" status="PRIVATE"/>
+     <RUN accession="ERR4804658" alias="UPSC-0168-R0009" status="PRIVATE"/>
+     <RUN accession="ERR4804659" alias="UPSC-0168-R0010" status="PRIVATE"/>
+     <RUN accession="ERR4804660" alias="UPSC-0168-R0011" status="PRIVATE"/>
+     <RUN accession="ERR4804661" alias="UPSC-0168-R0012" status="PRIVATE"/>
+     <RUN accession="ERR4804662" alias="UPSC-0168-R0013" status="PRIVATE"/>
+     <RUN accession="ERR4804663" alias="UPSC-0168-R0014" status="PRIVATE"/>
+     <RUN accession="ERR4804664" alias="UPSC-0168-R0015" status="PRIVATE"/>
+     <RUN accession="ERR4804665" alias="UPSC-0168-R0016" status="PRIVATE"/>
+     <RUN accession="ERR4804666" alias="UPSC-0168-R0017" status="PRIVATE"/>
+     <RUN accession="ERR4804667" alias="UPSC-0168-R0018" status="PRIVATE"/>
+     <RUN accession="ERR4804668" alias="UPSC-0168-R0019" status="PRIVATE"/>
+     <RUN accession="ERR4804669" alias="UPSC-0168-R0020" status="PRIVATE"/>
+     <RUN accession="ERR4804670" alias="UPSC-0168-R0021" status="PRIVATE"/>
+     <RUN accession="ERR4804671" alias="UPSC-0168-R0022" status="PRIVATE"/>
+     <RUN accession="ERR4804672" alias="UPSC-0168-R0023" status="PRIVATE"/>
+     <RUN accession="ERR4804673" alias="UPSC-0168-R0024" status="PRIVATE"/>
+     <RUN accession="ERR4804674" alias="UPSC-0168-R0025" status="PRIVATE"/>
+     <RUN accession="ERR4804675" alias="UPSC-0168-R0026" status="PRIVATE"/>
+     <RUN accession="ERR4804676" alias="UPSC-0168-R0027" status="PRIVATE"/>
+     <RUN accession="ERR4804677" alias="UPSC-0168-R0028" status="PRIVATE"/>
+     <RUN accession="ERR4804678" alias="UPSC-0168-R0029" status="PRIVATE"/>
+     <RUN accession="ERR4804679" alias="UPSC-0168-R0030" status="PRIVATE"/>
+     <RUN accession="ERR4804680" alias="UPSC-0168-R0031" status="PRIVATE"/>
+     <RUN accession="ERR4804681" alias="UPSC-0168-R0032" status="PRIVATE"/>
+     <RUN accession="ERR4804682" alias="UPSC-0168-R0033" status="PRIVATE"/>
+     <RUN accession="ERR4804683" alias="UPSC-0168-R0034" status="PRIVATE"/>
+     <RUN accession="ERR4804684" alias="UPSC-0168-R0035" status="PRIVATE"/>
+     <RUN accession="ERR4804685" alias="UPSC-0168-R0036" status="PRIVATE"/>
+     <RUN accession="ERR4804686" alias="UPSC-0168-R0037" status="PRIVATE"/>
+     <RUN accession="ERR4804687" alias="UPSC-0168-R0038" status="PRIVATE"/>
+     <RUN accession="ERR4804688" alias="UPSC-0168-R0039" status="PRIVATE"/>
+     <RUN accession="ERR4804689" alias="UPSC-0168-R0040" status="PRIVATE"/>
+     <RUN accession="ERR4804690" alias="UPSC-0168-R0041" status="PRIVATE"/>
+     <RUN accession="ERR4804691" alias="UPSC-0168-R0042" status="PRIVATE"/>
+     <RUN accession="ERR4804692" alias="UPSC-0168-R0043" status="PRIVATE"/>
+     <RUN accession="ERR4804693" alias="UPSC-0168-R0044" status="PRIVATE"/>
+     <RUN accession="ERR4804694" alias="UPSC-0168-R0045" status="PRIVATE"/>
+     <RUN accession="ERR4804695" alias="UPSC-0168-R0046" status="PRIVATE"/>
+     <RUN accession="ERR4804696" alias="UPSC-0168-R0047" status="PRIVATE"/>
+     <RUN accession="ERR4804697" alias="UPSC-0168-R0048" status="PRIVATE"/>
+     <RUN accession="ERR4804698" alias="UPSC-0168-R0049" status="PRIVATE"/>
+     <RUN accession="ERR4804699" alias="UPSC-0168-R0050" status="PRIVATE"/>
+     <RUN accession="ERR4804700" alias="UPSC-0168-R0051" status="PRIVATE"/>
+     <RUN accession="ERR4804701" alias="UPSC-0168-R0052" status="PRIVATE"/>
+     <RUN accession="ERR4804702" alias="UPSC-0168-R0053" status="PRIVATE"/>
+     <RUN accession="ERR4804703" alias="UPSC-0168-R0054" status="PRIVATE"/>
+     <RUN accession="ERR4804704" alias="UPSC-0168-R0055" status="PRIVATE"/>
+     <RUN accession="ERR4804705" alias="UPSC-0168-R0056" status="PRIVATE"/>
+     <RUN accession="ERR4804706" alias="UPSC-0168-R0057" status="PRIVATE"/>
+     <RUN accession="ERR4804707" alias="UPSC-0168-R0058" status="PRIVATE"/>
+     <RUN accession="ERR4804708" alias="UPSC-0168-R0059" status="PRIVATE"/>
+     <RUN accession="ERR4804709" alias="UPSC-0168-R0060" status="PRIVATE"/>
+     <RUN accession="ERR4804710" alias="UPSC-0168-R0061" status="PRIVATE"/>
+     <RUN accession="ERR4804711" alias="UPSC-0168-R0062" status="PRIVATE"/>
+     <RUN accession="ERR4804712" alias="UPSC-0168-R0063" status="PRIVATE"/>
+     <RUN accession="ERR4804713" alias="UPSC-0168-R0064" status="PRIVATE"/>
+     <RUN accession="ERR4804714" alias="UPSC-0168-R0065" status="PRIVATE"/>
+     <RUN accession="ERR4804715" alias="UPSC-0168-R0066" status="PRIVATE"/>
+     <RUN accession="ERR4804716" alias="UPSC-0168-R0067" status="PRIVATE"/>
+     <RUN accession="ERR4804717" alias="UPSC-0168-R0068" status="PRIVATE"/>
+     <RUN accession="ERR4804718" alias="UPSC-0168-R0069" status="PRIVATE"/>
+     <RUN accession="ERR4804719" alias="UPSC-0168-R0070" status="PRIVATE"/>
+     <RUN accession="ERR4804720" alias="UPSC-0168-R0071" status="PRIVATE"/>
+     <RUN accession="ERR4804721" alias="UPSC-0168-R0072" status="PRIVATE"/>
+     <RUN accession="ERR4804722" alias="UPSC-0168-R0073" status="PRIVATE"/>
+     <RUN accession="ERR4804723" alias="UPSC-0168-R0074" status="PRIVATE"/>
+     <RUN accession="ERR4804724" alias="UPSC-0168-R0075" status="PRIVATE"/>
+     <RUN accession="ERR4804725" alias="UPSC-0168-R0076" status="PRIVATE"/>
+     <RUN accession="ERR4804726" alias="UPSC-0168-R0077" status="PRIVATE"/>
+     <RUN accession="ERR4804727" alias="UPSC-0168-R0078" status="PRIVATE"/>
+     <RUN accession="ERR4804728" alias="UPSC-0168-R0079" status="PRIVATE"/>
+     <RUN accession="ERR4804729" alias="UPSC-0168-R0080" status="PRIVATE"/>
+     <RUN accession="ERR4804730" alias="UPSC-0168-R0081" status="PRIVATE"/>
+     <RUN accession="ERR4804731" alias="UPSC-0168-R0082" status="PRIVATE"/>
+     <RUN accession="ERR4804732" alias="UPSC-0168-R0083" status="PRIVATE"/>
+     <RUN accession="ERR4804733" alias="UPSC-0168-R0084" status="PRIVATE"/>
+     <RUN accession="ERR4804734" alias="UPSC-0168-R0085" status="PRIVATE"/>
+     <RUN accession="ERR4804735" alias="UPSC-0168-R0086" status="PRIVATE"/>
+     <RUN accession="ERR4804736" alias="UPSC-0168-R0087" status="PRIVATE"/>
+     <RUN accession="ERR4804737" alias="UPSC-0168-R0088" status="PRIVATE"/>
+     <RUN accession="ERR4804738" alias="UPSC-0168-R0089" status="PRIVATE"/>
+     <RUN accession="ERR4804739" alias="UPSC-0168-R0090" status="PRIVATE"/>
+     <RUN accession="ERR4804740" alias="UPSC-0168-R0091" status="PRIVATE"/>
+     <RUN accession="ERR4804741" alias="UPSC-0168-R0092" status="PRIVATE"/>
+     <RUN accession="ERR4804742" alias="UPSC-0168-R0093" status="PRIVATE"/>
+     <RUN accession="ERR4804743" alias="UPSC-0168-R0094" status="PRIVATE"/>
+     <RUN accession="ERR4804744" alias="UPSC-0168-R0095" status="PRIVATE"/>
+     <RUN accession="ERR4804745" alias="UPSC-0168-R0096" status="PRIVATE"/>
+     <RUN accession="ERR4804746" alias="UPSC-0168-R0097" status="PRIVATE"/>
+     <RUN accession="ERR4804747" alias="UPSC-0168-R0098" status="PRIVATE"/>
+     <RUN accession="ERR4804748" alias="UPSC-0168-R0099" status="PRIVATE"/>
+     <RUN accession="ERR4804749" alias="UPSC-0168-R0100" status="PRIVATE"/>
+     <RUN accession="ERR4804750" alias="UPSC-0168-R0101" status="PRIVATE"/>
+     <RUN accession="ERR4804751" alias="UPSC-0168-R0102" status="PRIVATE"/>
+     <RUN accession="ERR4804752" alias="UPSC-0168-R0103" status="PRIVATE"/>
+     <RUN accession="ERR4804753" alias="UPSC-0168-R0104" status="PRIVATE"/>
+     <RUN accession="ERR4804754" alias="UPSC-0168-R0105" status="PRIVATE"/>
+     <RUN accession="ERR4804755" alias="UPSC-0168-R0106" status="PRIVATE"/>
+     <RUN accession="ERR4804756" alias="UPSC-0168-R0107" status="PRIVATE"/>
+     <RUN accession="ERR4804757" alias="UPSC-0168-R0108" status="PRIVATE"/>
+     <RUN accession="ERR4804758" alias="UPSC-0168-R0109" status="PRIVATE"/>
+     <RUN accession="ERR4804759" alias="UPSC-0168-R0110" status="PRIVATE"/>
+     <SAMPLE accession="ERS5294695" alias="UPSC-0168-S0001" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538238" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294696" alias="UPSC-0168-S0002" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538239" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294697" alias="UPSC-0168-S0003" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538240" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294698" alias="UPSC-0168-S0004" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538241" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294699" alias="UPSC-0168-S0005" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538242" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294700" alias="UPSC-0168-S0006" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538243" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294701" alias="UPSC-0168-S0007" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538244" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294702" alias="UPSC-0168-S0008" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538245" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294703" alias="UPSC-0168-S0009" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538246" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294704" alias="UPSC-0168-S0010" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538247" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294705" alias="UPSC-0168-S0011" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538248" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294706" alias="UPSC-0168-S0012" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538249" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294707" alias="UPSC-0168-S0013" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538250" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294708" alias="UPSC-0168-S0014" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538251" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294709" alias="UPSC-0168-S0015" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538252" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294710" alias="UPSC-0168-S0016" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538253" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294711" alias="UPSC-0168-S0017" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538254" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294712" alias="UPSC-0168-S0018" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538255" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294713" alias="UPSC-0168-S0019" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538256" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294714" alias="UPSC-0168-S0020" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538257" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294715" alias="UPSC-0168-S0021" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538258" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294716" alias="UPSC-0168-S0022" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538259" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294717" alias="UPSC-0168-S0023" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538260" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294718" alias="UPSC-0168-S0024" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538261" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294719" alias="UPSC-0168-S0025" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538262" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294720" alias="UPSC-0168-S0026" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538263" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294721" alias="UPSC-0168-S0027" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538264" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294722" alias="UPSC-0168-S0028" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538265" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294723" alias="UPSC-0168-S0029" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538266" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294724" alias="UPSC-0168-S0030" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538267" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294725" alias="UPSC-0168-S0031" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538268" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294726" alias="UPSC-0168-S0032" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538269" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294727" alias="UPSC-0168-S0033" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538270" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294728" alias="UPSC-0168-S0034" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538271" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294729" alias="UPSC-0168-S0035" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538272" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294730" alias="UPSC-0168-S0036" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538273" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294731" alias="UPSC-0168-S0037" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538274" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294732" alias="UPSC-0168-S0038" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538275" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294733" alias="UPSC-0168-S0039" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538276" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294734" alias="UPSC-0168-S0040" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538277" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294735" alias="UPSC-0168-S0041" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538278" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294736" alias="UPSC-0168-S0042" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538279" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294737" alias="UPSC-0168-S0043" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538280" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294738" alias="UPSC-0168-S0044" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538281" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294739" alias="UPSC-0168-S0045" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538282" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294740" alias="UPSC-0168-S0046" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538283" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294741" alias="UPSC-0168-S0047" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538284" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294742" alias="UPSC-0168-S0048" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538285" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294743" alias="UPSC-0168-S0049" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538286" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294744" alias="UPSC-0168-S0050" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538287" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294745" alias="UPSC-0168-S0051" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538288" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294746" alias="UPSC-0168-S0052" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538289" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294747" alias="UPSC-0168-S0053" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538290" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294748" alias="UPSC-0168-S0054" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538291" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294749" alias="UPSC-0168-S0055" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538292" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294750" alias="UPSC-0168-S0056" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538293" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294751" alias="UPSC-0168-S0057" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538294" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294752" alias="UPSC-0168-S0058" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538295" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294753" alias="UPSC-0168-S0059" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538296" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294754" alias="UPSC-0168-S0060" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538297" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294755" alias="UPSC-0168-S0061" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538298" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294756" alias="UPSC-0168-S0062" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538299" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294757" alias="UPSC-0168-S0063" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538300" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294758" alias="UPSC-0168-S0064" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538301" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294759" alias="UPSC-0168-S0065" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538302" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294760" alias="UPSC-0168-S0066" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538303" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294761" alias="UPSC-0168-S0067" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538304" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294762" alias="UPSC-0168-S0068" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538305" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294763" alias="UPSC-0168-S0069" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538306" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294764" alias="UPSC-0168-S0070" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538307" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294765" alias="UPSC-0168-S0071" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538308" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294766" alias="UPSC-0168-S0072" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538309" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294767" alias="UPSC-0168-S0073" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538310" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294768" alias="UPSC-0168-S0074" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538311" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294769" alias="UPSC-0168-S0075" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538312" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294770" alias="UPSC-0168-S0076" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538313" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294771" alias="UPSC-0168-S0077" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538314" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294772" alias="UPSC-0168-S0078" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538315" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294773" alias="UPSC-0168-S0079" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538316" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294774" alias="UPSC-0168-S0080" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538317" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294775" alias="UPSC-0168-S0081" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538318" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294776" alias="UPSC-0168-S0082" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538319" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294777" alias="UPSC-0168-S0083" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538320" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294778" alias="UPSC-0168-S0084" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538321" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294779" alias="UPSC-0168-S0085" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538322" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294780" alias="UPSC-0168-S0086" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538323" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294781" alias="UPSC-0168-S0087" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538324" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294782" alias="UPSC-0168-S0088" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538325" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294783" alias="UPSC-0168-S0089" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538326" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294784" alias="UPSC-0168-S0090" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538327" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294785" alias="UPSC-0168-S0091" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538328" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294786" alias="UPSC-0168-S0092" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538329" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294787" alias="UPSC-0168-S0093" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538330" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294788" alias="UPSC-0168-S0094" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538331" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294789" alias="UPSC-0168-S0095" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538332" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294790" alias="UPSC-0168-S0096" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538333" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294791" alias="UPSC-0168-S0097" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538334" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294792" alias="UPSC-0168-S0098" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538335" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294793" alias="UPSC-0168-S0099" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538336" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294794" alias="UPSC-0168-S0100" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538337" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294795" alias="UPSC-0168-S0101" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538338" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294796" alias="UPSC-0168-S0102" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538339" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294797" alias="UPSC-0168-S0103" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538340" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294798" alias="UPSC-0168-S0104" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538341" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294799" alias="UPSC-0168-S0105" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538342" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294800" alias="UPSC-0168-S0106" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538343" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294801" alias="UPSC-0168-S0107" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538344" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294802" alias="UPSC-0168-S0108" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538345" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294803" alias="UPSC-0168-S0109" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538346" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS5294804" alias="UPSC-0168-S0110" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="SAMEA7538347" type="biosample"/>
+     </SAMPLE>
+     <STUDY accession="ERP124909" alias="UPSC-0168" status="PRIVATE" holdUntilDate="2022-02-04Z">
+          <EXT_ID accession="PRJEB41173" type="Project"/>
+     </STUDY>
+     <SUBMISSION accession="ERA3067763" alias="UPSC-0168"/>
+     <MESSAGES>
+          <INFO>All objects in this submission are set to private status (HOLD).</INFO>
+          <INFO>Submission has been committed.</INFO>
+     </MESSAGES>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>HOLD</ACTIONS>
+</RECEIPT>
