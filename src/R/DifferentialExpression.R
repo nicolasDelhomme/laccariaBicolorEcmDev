@@ -190,13 +190,64 @@ Lb_28 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,0,0,1),
 #' ### Venn Diagram
 #' #### All DE genes
 grid.newpage()
-grid.draw(venn.diagram(list(T3=Lb_3$all,
-                            T7=Lb_7$all,
-                            T14=Lb_14$all,
-                            T21=Lb_21$all,
-                            T28=Lb_28$all),
+grid.draw(venn.diagram(list(`3d`=Lb_3$all,
+                            `7d`=Lb_7$all,
+                            `14d`=Lb_14$all,
+                            `21d`=Lb_21$all,
+                            `28d`=Lb_28$all),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Labic_FLM-vs-ECM_VennDiagram-DE-all.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Lb_3$all,
+                            `7d`=Lb_7$all,
+                            `14d`=Lb_14$all,
+                            `21d`=Lb_21$all,
+                            `28d`=Lb_28$all),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
+
+#' Export the common and unique sets
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_common.txt"),
+    Reduce("intersect",list(`3d`=Lb_3$all,
+                        `7d`=Lb_7$all,
+                        `14d`=Lb_14$all,
+                        `21d`=Lb_21$all,
+                        `28d`=Lb_28$all)))
+
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_3d.txt"),
+      setdiff(Lb_3$all,Reduce("union",list(Lb_7$all,
+                          Lb_14$all,
+                          Lb_21$all,
+                          Lb_28$all))))
+
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_7d.txt"),
+      setdiff(Lb_7$all,Reduce("union",list(Lb_3$all,
+                                           Lb_14$all,
+                                           Lb_21$all,
+                                           Lb_28$all))))
+
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_14d.txt"),
+      setdiff(Lb_14$all,Reduce("union",list(Lb_7$all,
+                                           Lb_3$all,
+                                           Lb_21$all,
+                                           Lb_28$all))))
+
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_21d.txt"),
+      setdiff(Lb_21$all,Reduce("union",list(Lb_7$all,
+                                           Lb_14$all,
+                                           Lb_3$all,
+                                           Lb_28$all))))
+
+write(file=here("data/analysis/DE/Labic_FLM-vs-ECM_28d.txt"),
+      setdiff(Lb_28$all,Reduce("union",list(Lb_7$all,
+                                           Lb_14$all,
+                                           Lb_21$all,
+                                           Lb_3$all))))
+
 #' #### UP DE genes
 grid.newpage()
 grid.draw(venn.diagram(list(T3=Lb_3$up,
@@ -206,6 +257,19 @@ grid.draw(venn.diagram(list(T3=Lb_3$up,
                             T28=Lb_28$up),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Labic_FLM-vs-ECM_VennDiagram-DE-up.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Lb_3$up,
+                            `7d`=Lb_7$up,
+                            `14d`=Lb_14$up,
+                            `21d`=Lb_21$up,
+                            `28d`=Lb_28$up),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
+
 #' #### DOWN DE genes
 grid.newpage()
 grid.draw(venn.diagram(list(T3=Lb_3$dn,
@@ -215,6 +279,18 @@ grid.draw(venn.diagram(list(T3=Lb_3$dn,
                             T28=Lb_28$dn),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Labic_FLM-vs-ECM_VennDiagram-DE-dn.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Lb_3$dn,
+                            `7d`=Lb_7$dn,
+                            `14d`=Lb_14$dn,
+                            `21d`=Lb_21$dn,
+                            `28d`=Lb_28$dn),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
 
 res.list <- list(Lb_3=list(all=substr(Lb_3$all,12,17),
                            up=substr(Lb_3$up,12,17),
@@ -369,6 +445,59 @@ grid.draw(venn.diagram(list(T3=Pa_3$all,
                             T28=Pa_28$all),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Potra_ECM-vs-Cont_VennDiagram-DE-all.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Pa_3$all,
+                            `7d`=Pa_7$all,
+                            `14d`=Pa_14$all,
+                            `21d`=Pa_21$all,
+                            `28d`=Pa_28$all),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
+
+#' Export the common and unique sets
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_common.txt"),
+      Reduce("intersect",list(`3d`=Pa_3$all,
+                          `7d`=Pa_7$all,
+                          `14d`=Pa_14$all,
+                          `21d`=Pa_21$all,
+                          `28d`=Pa_28$all)))
+
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_3d.txt"),
+      setdiff(Pa_3$all,Reduce("union",list(Pa_7$all,
+                                           Pa_14$all,
+                                           Pa_21$all,
+                                           Pa_28$all))))
+
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_7d.txt"),
+      setdiff(Pa_7$all,Reduce("union",list(Pa_3$all,
+                                           Pa_14$all,
+                                           Pa_21$all,
+                                           Pa_28$all))))
+
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_14d.txt"),
+      setdiff(Pa_14$all,Reduce("union",list(Pa_7$all,
+                                            Pa_3$all,
+                                            Pa_21$all,
+                                            Pa_28$all))))
+
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_21d.txt"),
+      setdiff(Pa_21$all,Reduce("union",list(Pa_7$all,
+                                            Pa_14$all,
+                                            Pa_3$all,
+                                            Pa_28$all))))
+
+write(file=here("data/analysis/DE/Potra_ECM-vs-Cont_28d.txt"),
+      setdiff(Pa_28$all,Reduce("union",list(Pa_7$all,
+                                            Pa_14$all,
+                                            Pa_21$all,
+                                            Pa_3$all))))
+
+
+
 #' #### UP DE genes
 grid.newpage()
 grid.draw(venn.diagram(list(T3=Pa_3$up,
@@ -378,6 +507,19 @@ grid.draw(venn.diagram(list(T3=Pa_3$up,
                             T28=Pa_28$up),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Potra_ECM-vs-Cont_VennDiagram-DE-up.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Pa_3$up,
+                            `7d`=Pa_7$up,
+                            `14d`=Pa_14$up,
+                            `21d`=Pa_21$up,
+                            `28d`=Pa_28$up),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
+
 #' #### DOWN DE genes
 grid.newpage()
 grid.draw(venn.diagram(list(T3=Pa_3$dn,
@@ -387,6 +529,18 @@ grid.draw(venn.diagram(list(T3=Pa_3$dn,
                             T28=Pa_28$dn),
                        NULL,
                        fill=pal[1:5]))
+
+pdf(file=here("data/analysis/DE/Potra_ECM-vs-Cont_VennDiagram-DE-dn.pdf"),
+    width=10,height=10)
+grid.newpage()
+grid.draw(venn.diagram(list(`3d`=Pa_3$dn,
+                            `7d`=Pa_7$dn,
+                            `14d`=Pa_14$dn,
+                            `21d`=Pa_21$dn,
+                            `28d`=Pa_28$dn),
+                       NULL,
+                       fill=pal[1:5]))
+dev.off()
 
 res.list <- list(Pa_3=Pa_3,
                  Pa_7=Pa_7,
