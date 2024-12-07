@@ -414,6 +414,53 @@ Pa_7 <- extract_results(dds,vst,c(0,1,0,0,0,0,1,0,0,0),
                                       colData(dds)$Time),
                         sample_sel=colData(dds)$Time==7)
 
+#' #### Extra validation
+r.sel <- rownames(vst) %in% Pa_7$up
+c.sel <- dds$Time == "7"
+
+dat <- t(scale(t(vst[r.sel,]))) %>% 
+  as.data.frame() %>% 
+  rownames_to_column("GeneID") %>% 
+  pivot_longer(starts_with("P11915")) %>% 
+  left_join(samples %>% dplyr::select(SciLifeID,Experiment,Time),by = c("name"="SciLifeID"))
+
+ggplot(dat,
+       aes(x=Time,y=value,group=c(GeneID))) +
+  geom_smooth(se=FALSE) +
+  scale_y_continuous(name="VST expression") +
+  facet_wrap(~Experiment)
+
+ggplot(dat,
+       aes(x=parse_integer(as.character(Time)),
+           y=value,group=Time,fill=Time)) +
+  #geom_boxplot() +
+  geom_violin(trim=FALSE,draw_quantiles = c(0.25,0.5,0.75)) +
+  scale_y_continuous(name="standard score") +
+  scale_x_continuous(paste0("days (n=",length(unique(dat$GeneID)),")")) +
+  facet_wrap(~Experiment)
+
+r.sel <- rownames(vst) %in% Pa_7$dn
+dat <- t(scale(t(vst[r.sel,]))) %>% 
+  as.data.frame() %>% 
+  rownames_to_column("GeneID") %>% 
+  pivot_longer(starts_with("P11915")) %>% 
+  left_join(samples %>% dplyr::select(SciLifeID,Experiment,Time),by = c("name"="SciLifeID"))
+
+ggplot(dat,
+       aes(x=Time,y=value,group=c(GeneID))) +
+  geom_smooth(se=FALSE) +
+  scale_y_continuous(name="VST expression") +
+  facet_wrap(~Experiment)
+
+ggplot(dat,
+       aes(x=parse_integer(as.character(Time)),
+           y=value,group=Time,fill=Time)) +
+  #geom_boxplot() +
+  geom_violin(trim=FALSE,draw_quantiles = c(0.25,0.5,0.75)) +
+  scale_y_continuous(name="standard score") +
+  scale_x_continuous(paste0("days (n=",length(unique(dat$GeneID)),")")) +
+  facet_wrap(~Experiment)
+
 #' ### ECM _vs._ Cont at T14
 Pa_14 <- extract_results(dds,vst,c(0,1,0,0,0,0,0,1,0,0),
                          default_prefix="Potra_ECM-vs-Cont_T14_",
